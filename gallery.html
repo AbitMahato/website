@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photos</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="jss/lightbox-plus-jquery.min.js"></script>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<header>
+  <nav>
+      <div class="row clearfix">
+        <ul class="main-nav animated fadeInDown" id="check-class">
+          <li><a href="index.html">HOME</a></li>
+            <!-- <li><a href="order.html">HOW TO ORDER</a></li> -->
+            
+             <li><a href="menu1.html">VIEW MENU</a></li>
+            <li><a href="signup.html">SIGN UP</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+        </ul>
+        <a href="#" class="mobile-icon" onclick="slideshow()">
+          <i class="fa fa-bars"></i><a/>
+      </div>
+    </nav>
+
+	<h3>Gallery</h3>
+	<div class="Gallery">
+		<a href="images/pic1 - Copy.jpg" data-lightbox="my Gallery" data-title="Cappuccino"><img src="images/pic1.jpg"></a>
+		<a href="images/pic2 - Copy.jpg" data-lightbox="my Gallery" data-title="Peaceful Environment"><img src="images/pic2.jpg"></a>
+		<a href="images/pic3 - Copy.jpg" data-lightbox="my Gallery" data-title="Wall Art"><img src="images/pic3.jpg"></a>
+		<a href="images/pic4 - Copy.jpg" data-lightbox="my Gallery" data-title="Mouth Watering Pizzas"><img src="images/pic4.jpg"></a>
+		<a href="images/pic5 - Copy.jpg" data-lightbox="my Gallery" data-title="Chocolate Smoothies"><img src="images/pic5.jpg"></a>
+		<a href="images/pic6 - Copy.jpg" data-lightbox="my Gallery" data-title="Grilled Items"><img src="images/pic6.jpg"></a>
+		<a href="images/pic7 - Copy.jpg" data-lightbox="my Gallery" data-title="Kabab Items"><img src="images/pic7.jpg"></a>
+		<a href="images/pic8 - Copy.jpg" data-lightbox="my Gallery" data-title="Classic Burger"><img src="images/pic8.jpg"></a>
+		<a href="images/pic9 - Copy.jpg" data-lightbox="my Gallery" data-title="Indian Foods"><img src="images/pic9.jpg"></a>
+		<a href="images/pic10 - Copy.jpg" data-lightbox="my Gallery" data-title="Refreshing Drinks"><img src="images/pic10.jpg"></a>
+		<a href="images/pic11 - Copy.jpg" data-lightbox="my Gallery" data-title="Birthday Party Celebration"><img src="images/pic11.jpg"></a>
+		<a href="images/pic12 - Copy.jpg" data-lightbox="my Gallery" data-title="Photoshoot"><img src="images/pic12.jpg"></a>
+		
+	</div>
+</header>
+
+<script type="text/javascript">
+
+			function slideshow(){
+		var x = document.getElementById("check-class");
+		if (x.style.display === "none") {
+			x.style.display="block";
+		}else{
+			x.style.display="none";
+		}
+}
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Place Your Order Here</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+  <nav>
+      <div class="row clearfix">
+        <!-- <img src="images/aabb.png" class="logo"> -->
+        <ul class="main-nav animated fadeInDown" id="check-class">
+          <li><a href="index.html">HOME</a></li>
+            <!-- <li><a href="order.html">HOW TO ORDER</a></li --><!-- > -->
+            <li><a href="gallery.html">PHOTOS</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            
+            <li><a href="signup.html">SIGN UP</a></li>
+        </ul>
+        <a href="#" class="mobile-icon" onclick="slideshow()">
+          <i class="fa fa-bars"></i><a/>
+      </div>
+    </nav>
+</header>
+	 <div class="orderbox">
+    <img src="images/aabb.png" class="top">
+    <h3>Order Here</h3>
+    <form>
+      <p>Full Name</p>
+      <input type="text" name="" placeholder="Enter Name">
+      <p>Address</p>
+      <input type="text" name="" placeholder="Enter Adress">
+      <!--  <p>Item you want to order</p>
+      <input type="text" name="" placeholder="Enter Item">
+       --> <p>Quantity</p>
+      <input type="text" name="" placeholder="Quantity">
+       <p>Payment Method</p>
+      <input type="text" name="" placeholder="Cash On Delivery/Esewa">
+       <p>Contact Number</p>
+      <input type="text" name="" placeholder="Enter Ph.Number">
+       <input type="submit" name="" value="Order">
+
+
+     <!--  <a href="#">Forgot Your Password?</a><br>
+      <a href="#">Don't have an account?</a>
+ -->
+    </form>
+    
+  </div>
+<script type="text/javascript">
+
+      function slideshow(){
+    var x = document.getElementById("check-class");
+    if (x.style.display === "none") {
+      x.style.display="block";
+    }else{
+      x.style.display="none";
+    }
+}
+
+  </script>
+</body>
+</html>
